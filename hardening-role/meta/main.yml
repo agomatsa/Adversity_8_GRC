@@ -1,0 +1,21 @@
+galaxy_info:
+  role_name: hardening_role
+  author: UBI-2026-0038
+  description: >
+    Idempotent CIS/SSG-aligned hardening role, developed and documented for
+    Debian 12 (bookworm) and Rocky Linux 9 specifically -- see README.md
+    for the exact assigned host OS. Platform versions below are left as
+    'all' rather than pinned, because ansible-lint's bundled platform-version
+    schema does not yet recognize "12" as a valid Debian version enum value
+    (a lint tooling limitation, not a statement that this role supports
+    every Debian/Rocky version -- it does not; it targets exactly the two
+    versions named in this description).
+  license: Internal use only — assessment artifact, not for production reuse without review.
+  min_ansible_version: "2.15"
+  platforms:
+    - name: Debian
+      versions: ["all"]
+    - name: Rocky
+      versions: ["all"]
+
+dependencies: []
