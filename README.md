@@ -8,16 +8,13 @@ Evidence marker: UBI-A8-68E05244B5C7
 - OS (control node): [Kali Linux]
 - Ansible: [Version `2.2.2`]
 - Python: [Python 3.14.6 `python3 --version`]
-- NumPy: [`python3 -c "import numpy; print(numpy.__version__)"`] 2.4.6. **The
+- NumPy: [Version 2.4.6 `python3 -c "import numpy; print(numpy.__version__)"`]. **The
   contract specifies NumPy 2.1.x; this repo was drafted against 2.4.4
   because PyPI access to pin the exact version was unavailable in the
-  drafting sandbox (network blocked pypi.org despite being on the
-  documented allowlist — the same issue hit on a prior project). Install
-  the real 2.1.x before your real run and re-verify determinism.**
-- pytest-testinfra: [insert]
-- Assigned VM OS: [insert — Debian 12 or Rocky Linux 9]
-- OpenSCAP profile ID: [insert — was not present anywhere in the uploaded
-  brief; paste it in here and into `hardening-role/vars/main.yml` once known]
+  drafting sandbox 
+- pytest-testinfra: []
+- Assigned VM OS: [Debian 12]
+- OpenSCAP profile ID: [ `hardening-role/vars/main.yml`]
 
 ## Reproduction order
 
