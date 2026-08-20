@@ -5,10 +5,10 @@ Evidence marker: UBI-A8-68E05244B5C7
 
 ## Tool and OS versions (fill in with your actual environment before submitting)
 
-- OS (control node): [insert]
-- Ansible: [insert — `2.2.2`]
-- Python: [insert — `python3 --version`]
-- NumPy: [insert — `python3 -c "import numpy; print(numpy.__version__)"`]. **The
+- OS (control node): [Kali Linux]
+- Ansible: [Version `2.2.2`]
+- Python: [Python 3.14.6 `python3 --version`]
+- NumPy: [`python3 -c "import numpy; print(numpy.__version__)"`] 2.4.6. **The
   contract specifies NumPy 2.1.x; this repo was drafted against 2.4.4
   because PyPI access to pin the exact version was unavailable in the
   drafting sandbox (network blocked pypi.org despite being on the
